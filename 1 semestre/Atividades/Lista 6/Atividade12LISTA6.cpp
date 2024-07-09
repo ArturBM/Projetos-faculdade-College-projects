@@ -22,3 +22,5 @@ main()
 printf("A quantidade de meses para que o Patrimonio de joao se torne maior e: %d\n", meses);
 
 }
+
+     
