@@ -6,7 +6,7 @@ main()
 	printf("Me da tua media ai: ");
 	scanf("%i", &media);
 	
-	if(media > 7)
+	if(media >= 7)
 {
 	printf("Aprovado");
 }
