@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Artur Machado">
+    <meta name="description" content="Formulario de Orçamento">
+    <title>Orçamento</title>
+</head>
+<body>
+    <header>
+        <h1>Formulario Orçamento Vee Digital!</h1>
+        <h5>Vamos crescer Juntos!</h5>
+        <nav>
+            <a href="#cadastro">Informações Pessoais</a>
+            <a href="#login">Informações Login</a>
+            <a href="#skills">Skills</a>
+            <a href="#financeiro">Financeiro</a>
+        </nav>
+    </header>
+    <main>
+        <form>
+        <article>
+            <section id="cadastro">
+                <label for="Nome">Nome</label><br>
+                <input type="text" id="Nome" name="Nome"><br>
+                <label for="Sobrenome">Sobrenome</label><br>
+                <input type="text" id="Sobrenome" name="Sobrenome"><br>
+
+                <label for="Bday">Data de Nascimento</label><br>
+                <input type="date" id="Bday" name="Bday"><br>
+            </section>
+            <section id="login">
+                <label for="Email">E-mail</label><br>
+                <input type="email" id="Email" name="Email"><br>
+
+                <label for="Senha">Senha</label><br>
+                <input type="password" id="Senha" name="Senha"><br>
+
+                <label for="Telefone">Telefone</label><br>
+                <input type="number" id="Telefone" name="Telefone"><br>
+            </section>
+            <section id="skills">
+                <label for="Observação">Observação</label><br>
+                <input type="text" id="Observação" name="Observação"><br><br><br>
+                <label for="Linguas">Linguas:</label><br>
+                <select>  
+                <optgroup label="Linguas"><br>
+                    <option>Português</option>
+                    <option>Inglês</option>
+                    <option>Francês</option>
+                    <option>Chines</option>
+                    <option>Japones</option>
+                    </optgroup>
+                </select>
+                <br><label for="Genero">Gênero</label><br>
+                <input type="radio" id="Masculino" name="Genero">
+                <label for="Masculino">Masculino</label><br>
+                <input type="radio" id="Feminino" name="Genero">
+                <label for="Feminino">Feminino</label><br>
+                <input type="radio" id="naoinformar" name="Genero">
+                <label for="naoinformar">Prefiro não informar</label><br>
+
+                <br><label for="Comida">Comida Preferida:</label><br>
+                <select>  
+                    <optgroup label="Comida"><br>
+                        <option>Macarronada</option>
+                        <option>Sushi</option>
+                        <option>Chocolate</option>
+                        <option>Hamburguer</option>
+                        <option>Pizza</option>
+                        </optgroup><br>
+                    </select>
+
+                    <br><label for="esporte">Esporte Preferido:</label><br>
+                    <input type="text" name="esporte" id="esporte" list="times">
+                    <datalist id="times">
+                        <option>Flamengo</option>
+                        <option>Criciuma</option>
+                        <option>Grêmio</option>
+                        <option>Tubarão</option>
+                        <option>Santos</option>
+                    </datalist>
+            </section>
+            <section id="financeiro">
+                <label for="Investimentos">Investimentos</label>
+                <input type="range" id="financeiro" name="financeiro" min="100" max="1000000" step="100">
+            </section>
+            
+        </article>
+
+        <input id="cadastrado" type="submit" value="Cadastrar">
+
+        <h3>Agora que se cadastrou</h3>
+        <h4>Vamos para as aulas</h4>
+        <a href="../Cursos/index.html"> <img src="../img/Art.png"></a>
+
+    </form>
+    <a href="../index.html"><img src="../img/home page.png"></a>
+    </main>
+    
+</body>
+</html>
