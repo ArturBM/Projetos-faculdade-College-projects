@@ -1,0 +1,122 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+/* div{
+    color:red
+}
+
+/* Regra para class */
+
+/*.titulo{
+    color:blueviolet
+}
+
+/* Rega para id */
+
+/* #topo{
+    color:blue
+} */
+
+/*.tituloEspecial{
+    font-size: 36px;
+    background-color: black;
+    margin: 20px; /* move o elemento pro lado*/
+   /* padding: 20px; /*move toda a margem do elemento
+}*/
+
+body
+{
+    background-image: url("../img/Zoom\ Background\ -\ Planetas\ no\ Espaço.png");
+    font-size: 18px;
+    background-size: cover;
+    margin: 0;
+    padding: 0;    
+}
+
+#topo p,#nav p, #principal p:first-child, aside p:first-child, #rodape p:first-child
+{
+    color: #8a07f5;
+    font-size: 18px;
+    background-color: rgb(78, 0, 80);
+    
+}
+
+ p, ul, a
+ {
+    color:white;
+    margin:5px;
+    
+ }
+ ul{
+  
+    list-style: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+ }
+
+
+#nav p{
+    background-color: aqua;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    box-shadow: 5px 5px 3px #8a07f5;
+    width: 250px;
+    margin: 40px;
+    font-size: 25px;
+    padding: 14px;
+    margin-top: 100px;
+}
+
+ #nav{
+    
+    padding-bottom: 20px;
+ }
+ #topo p
+ {
+    padding: 14px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    box-shadow: 5px 5px 20px #8a07f5;
+    width: 250px;
+    margin: 40px;
+    font-size: 25px;
+ }
+
+ #principal p:first-child, aside p:first-child,#rodape p:first-child  
+ {
+    background-color: aqua;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    box-shadow: 5px 5px 3px #8a07f5;
+    width: 250px;
+    margin: 40px;
+    font-size: 25px;
+    padding: 14px;
+ }
+ #principal
+ {
+
+    background-color: #222222DD;
+    border-radius: 20px;
+    padding:20px;
+    margin:40px;
+ }
+
+ .botao{
+    background-color: chocolate;
+    color: white; 
+    padding: 15px 32px; 
+    display: inline-block; 
+    font-size: 16px; 
+    margin: 4px 2px; 
+    cursor: pointer; 
+    border-radius: 12px; 
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+}
+#nav a 
+{
+    text-decoration:none;
+}
+ 
