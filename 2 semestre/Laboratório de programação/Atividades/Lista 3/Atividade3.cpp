@@ -16,11 +16,24 @@ void soma(int a, int b)
 {
     int i;
     int somar=0;
-    for(i=a; i <= b; i++)
+    if(a<b)
+    {
+         for(i=a; i <= b; i++)
     {
         
 
         somar = somar+ i;
     }
+
+    }
+    else{
+        for(i=b; i <= a; i++)
+    {
+        
+
+        somar = somar+ i;
+    }
+    }
+    
     printf("%d", somar);
 }
