@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+
+	background-image:url(img/009.jpg);
+
+}
+
+
+div{
+	float:left;
+	width:200px;
+	height:400px;	
+	border:solid 2px #000000;
+	box-shadow:11px 11px 25px #444;	
+	border-radius: 20px 20px 0 0 ;
+	margin: 2px 2px 2px 2px ;
+	
+	
+
+	
+	
+}
+
+div#um{
+	
+	background-repeat:repeat;
+    background-image:url(img/001.png);	
+
+
+}
+
+
+div#dois{
+	
+	background-repeat:repeat-y;  
+    background-image:url(img/001.png);	
+    background-size: 80px 80px;
+	padding: 0px;
+}
+
+
+div#tres{
+	
+	background-repeat:repeat-y;
+    background-image:url(img/001.png);	
+    background-position:center;
+   
+    
+
+}
+div#tres p{
+	justify-content: center;
+	margin-top: 80%;
+
+}
+
+div#quatro{
+	
+	
+    background-image:url(img/001.jpg);	
+	
+
+}
+
+div#cinco{
+	background-image:url(img/006.jpg);	
+    background-size: 600px 600px;
+	
+	
+}
+
+div#seis{
+	
+	background-image:url(img/005.jpg);	
+    background-size:cover;
+	background-position: center;
+	
+	
+}
+
+
+
+
+
+
+
+
+p {
+	text-align:center;
+	font-family:Tahoma, Geneva, sans-serif;
+	font:Tahoma, Geneva, sans-serif;
+	font-weight:bold;
+	font-size:42px;
+    color: lightblue;
+    text-shadow: 2px 2px 2px #504040;
+
+	
+	
+	
+	
+}
+	
+	

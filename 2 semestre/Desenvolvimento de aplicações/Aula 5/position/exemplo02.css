@@ -1,0 +1,124 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    
+	
+
+}
+
+
+div{
+	
+    float:left;
+	width:150px;
+	height:150px;	
+	border:solid 2px #000000;
+	box-shadow:11px 11px 25px #ba1717;	
+	border-radius: 50% ;
+	margin: 12px 12px 12px 12px ;
+	
+	
+	
+	
+	
+}
+
+
+
+
+div#um{
+	color:chocolate;
+    margin-left: 250px;
+    background-color: rgb(0, 0, 0);
+    
+
+}
+div#um p{
+color:darkred;
+}
+
+
+div#dois{
+    
+	position: fixed;
+    top: 0;
+    left: 0px;
+    width: 220px;
+    height: 125px;
+    border: 3px solid #339D21;
+    background: #136D41;
+    border-radius: 0 0 20px 20px  ;
+    margin: 0;
+    padding: 0;
+	
+}
+div#dois p{
+    color:#ba1717;
+}
+
+div#tres{
+
+
+border-color: rgb(7, 19, 255);
+color: brown;
+background: aqua;
+    
+
+}
+
+div#quatro{
+	
+	background-color: rgba(11, 141, 255, 0.632);
+}
+div#quatro p{
+    color:darkblue;
+}
+
+div#cinco{
+	
+	
+	
+}
+
+div#seis{
+	
+	position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 220px;
+    height: 85px;
+    border: 3px solid #73AD21;
+    background: #83BD41;
+    margin: 0;
+    
+}
+
+
+div#seis p {
+    
+     color: rgba(217, 0, 255, 0.947);
+    font-size: 20px;
+}
+
+
+
+
+
+
+p {
+	text-align:center;
+	font-family:Tahoma, Geneva, sans-serif;
+	font:Tahoma, Geneva, sans-serif;
+	font-weight:bold;
+	font-size:42px;
+    color: rgb(236, 253, 0);
+    text-shadow: 2px 2px 2px #504040;
+
+	
+	
+	
+	
+}
+	
+	

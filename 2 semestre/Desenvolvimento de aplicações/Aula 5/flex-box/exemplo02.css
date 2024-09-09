@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+
+
+
+h3, p {
+	
+	font-family:Tahoma, Geneva, sans-serif;
+	font:Tahoma, Geneva, sans-serif;
+	
+	
+	
+	
+	
+	
+}
+h3{
+    
+    //text-align:center;
+    font-weight:bold;
+    font-size:42px;
+    color: lightblue;
+    text-shadow: 2px 2px 2px #504040;
+    
+    
+}
+	
+
+p{
+    color: brown;
+    background: lightblue;
+    
+}
+
+#containerA{
+    
+    background: blue;
+    padding: 14px;
+}
+	
+#containerB{
+    
+    background: blue;
+    margin: 14px;
+}
+
+#containerC{
+    
+    background: blue;
+    border-style: dotted;
+    border-width: 2px;
+    border-color: coral;
+}
