@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	
+	font: 16px/1.2 sans-serif;
+	margin:0;
+	padding:0;
+	
+	
+}
+#tudo {
+	
+	max-width:1400px;
+	margin:0 auto;
+}
+
+#topo{
+    
+  height:60px;	
+	padding-top:1px;
+	background:#c60;
+	
+}
+
+#nav{
+    
+  width:20%;	
+  float:left;
+  background:#9cf;
+    
+}
+
+#principal{
+    
+  width:60%;
+   
+	float:left;
+	background:#ffe;
+    
+  
+   
+}
+
+#aux{
+    
+  width:18%;
+	float:right;
+	background:#9c3;
+   
+}
+
+#rodape{
+	height:30px;
+	clear: both;
+	background:#0c3;	
+	
+}
+
+
+
+
+
+
