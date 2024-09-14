@@ -58,7 +58,65 @@ body {
 }
 
 
+/*MEDIA QUERY*/
 
+@media screen and (max-width:1800px)
+ and (min-width:1200px)
+{
+	#topo{
+		background-color:black;
+	}
+}
 
+@media screen and (min-width:899px) and (min-width: 560px){
 
+	#aux{
+		float: left;
+	}
+
+	#principal{
+		width: 82%;
+		float: right;
+	}
+
+	#tudo{
+		background-color: brown;
+	}
+}
+@media screen and (max-width:459px)
+{
+	#aux{
+		float: left;
+		display: none;
+	}
+
+	#principal,#nav,#aux{
+		width: 100%;
+		float: left;
+	}
+	#principal{
+		width: 80%;
+		margin-left: 40px;
+		text-align: justify;
+	}
+	#tudo{
+		background-color: none;
+	}
+	#nav{
+		padding: auto;
+		
+	}
+
+	ul li{
+		background-color: yellow;
+		list-style: none;
+		margin-bottom: 22px;
+		padding: 9px;
+		width: 310px;
+		font-size: 20px;
+		font-weight: bold;
+		border-radius: 12px;
+		box-shadow: 2px 3px 8px #555;
+	}
+}
 
