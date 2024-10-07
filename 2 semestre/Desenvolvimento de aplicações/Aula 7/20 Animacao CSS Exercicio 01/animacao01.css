@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	
+	background-image:url(img/009.jpg);
+}
+
+
+
+div{
+	
+	float:left;	
+	border:solid 4px;
+	margin:20px;	
+	padding:20px ;
+	background-color: white;
+	font-size:28px;	
+	font-family:Verdana, Geneva, sans-serif;
+	font:Verdana;
+	font-weight:bold;	
+	box-shadow: 8px 7px 12px #444;
+	transition: 0.25s;
+	
+}
+
+/*div:hover{
+	background-color: orangered;
+	cursor: pointer;
+	box-shadow: 4px 3px 5px #222;
+	transform: scale(0.99);
+	border-color: white;
+	
+}*/
+
+@keyframes animaB{
+	from{background-color: white;}
+	to{background-color: red;}
+
+}
+@keyframes animaC{
+	0%{background-color: red;
+		left: 0px;
+		top: 0px;
+		transform:rotate(0deg);
+	}
+	25%{background-color: red;
+		left: 200px;
+		top: 0px;
+		transform:rotate(15deg);
+	}
+	50%{background-color: yellow;
+		left: 200px;
+		top: 200px;
+		transform:rotate(-45deg);
+	}
+	75%{background-color: green;
+		left: 0px;
+		top: 200px;
+		transform:rotate(88deg);
+	}
+	100%{background-color: red;
+		left: 0px;
+		top: 0px;
+		transform:rotate(0deg);
+	}
+
+}
+#dois{
+	position:relative;
+	animation-duration: 3s;
+	animation-name: animaC;
+	animation-duration: 10s;
+	animation-iteration-count:infinite;
+}
+
+#tres{
+	position:relative;
+	animation-duration: 3s;
+	animation-name: animaC;
+	animation-duration: 10s;
+	animation-iteration-count:infinite;
+}
+#quatro{
+	position:relative;
+	animation-name: animaC;
+	animation-duration: 10s;
+	animation-iteration-count:infinite;
+}
