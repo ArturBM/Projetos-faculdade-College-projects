@@ -8,6 +8,10 @@ int main()
     {
         printf("Me informe o numero %d: ",i+1);
         scanf("%f", &notas[i]);
+        if (notas[i] > 10 || notas[i] < 0)
+        {
+            i--;
+        }
     }
     calc(notas,&media,&maior,&menor);
     printf("Media: %.2f\t Maior: %.2f\t Menor:%.2f\t", media,maior,menor);
