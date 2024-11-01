@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body{
+	
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	background: #BDBDBD;
+		
+}
+
+header{
+	
+
+	margin: 0 auto;
+	text-align: center;
+	width: 98%;
+	background: #a0a0a0;
+	
+}
+
+
+
+#moldura{
+	
+	max-width: 100%;
+
+}
+
+.grupoBotao{
+	
+	margin: 0 auto;
+	text-align: center;	
+	
+}
+
+
+
+
+.botao{
+	margin: 5px;
+	padding: 4px;
+	background: #139DE0;
+	border-radius: 8px;
+	text-align: center;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 18px;
+	cursor: pointer;
+	letter-spacing: 2px;
+	color: white;
+}
+
+
