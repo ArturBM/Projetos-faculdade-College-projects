@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+*{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+section {
+    margin: 20px;
+    padding: 10px;
+    background-color: lightblue;
+    border-radius: 12px;
+    border-color: darkgray;
+    border-width: 1px;
+    border-style: inset;
+    width: 500px;
+    box-shadow: 3px 2px 9px gray;
+}
+
+
+input{
+    border-radius: 8cqw;
+    border-color: darkgray;
+    border-width: 2px;
+    border-style: inset;
+    height: 30px;
+    width: 200px;
+  
+}
+
+button{
+    border-radius: 8px;
+    border-color: darkgray;
+    border-width: 2px;
+    border-style: inset;
+    height: 30px;
+    width: 120px;
+    
+}
+
+
+li{
+
+    padding-top: 10px;
+    
+}
+
+li button{
+
+    float: right;
+    margin-right: 10px;
+
+}
+
+
+.lista{
+
+    background-color: whitesmoke;
+    border-width: 1px;
+    border-color: black;
+}
+
+
+.edite{
+
+    color: black;
+    background-color: gold;
+    height: 25px;
+    width: 60px;
+}
+
+.delete{
+
+    color: white;
+    background-color: red;
+    height: 25px;
+    width: 25px;
+}
+
+
+.salva{
+    color: white;
+    background-color: blue;
+ 
+
+}
+
+
+.delete:hover{
+
+    color: gray;
+    background-color: darkred;
+   
+}
+
+.edite:hover{
+
+    color: gray;
+    background-color: goldenrod;
+}
+
+.salva:hover{
+
+    color: gray;
+    background-color: darkblue;
+    
+   
+}
